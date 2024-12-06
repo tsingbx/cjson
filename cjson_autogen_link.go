@@ -1,3 +1,3 @@
 package cjson
 
-const LLGoPackage string = "link: -L/usr/local/Cellar/cjson/1.7.18/lib -lcjson -lcjson_utils;"
+const LLGoPackage string = "link: $(pkg-config --libs libcjson libcjson_utils);"

@@ -1,4 +1,4 @@
-module github.com/tsingbx/cjson
+module github.com/tsingbx/libcjson
 
 go 1.21.13
 
